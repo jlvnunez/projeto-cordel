@@ -4,10 +4,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
+@import url();
+
+@font-face {
+    font-family:borbane ;
+    src: url(../fontes/Brobane.ttf);
+}
+
 :root{
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', sans-serif;
     --fonte3:  "Homemade Apple", cursive;
+    --fonte4: "borbane",sans-serif;
 }
 
 
@@ -52,6 +60,7 @@ header p{
 
 header a:hover,footer a:hover{
     text-decoration: underline;
+    color: red;
     
 
 }
@@ -60,7 +69,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte4);
     font-size: 3vw;
     
 }
@@ -107,7 +116,7 @@ section.normal{
 
     footer{
     background-color: rgba(0, 0, 0, 0.212);
-    color: white;
+    color:white;
     text-align: center;
     padding: 10px;
 }
